@@ -1,0 +1,13 @@
+google-chrome: latest
+Google Chrome
+https://www.google.com/chrome/
+/opt/homebrew-cask/Caskroom/google-chrome/latest (217 files, 182M)
+https://github.com/caskroom/homebrew-cask/blob/master/Casks/google-chrome.rb
+==> Contents
+  Google Chrome.app (app)
+==> Caveats
+The Mac App Store version of 1Password won't work with a Homebrew-Cask-linked Google Chrome. To bypass this limitation, you need to either:
+
+  + Move Google Chrome to your /Applications directory (the app itself, not a symlink).
+  + Install 1Password from outside the Mac App Store (licenses should transfer automatically, but you should contact AgileBits about it).
+

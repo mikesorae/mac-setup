@@ -1,0 +1,13 @@
+sourcetree: 2.0.5.2
+SourceTree
+https://www.sourcetreeapp.com/
+/opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2 (2235 files, 113M)
+https://github.com/caskroom/homebrew-cask/blob/master/Casks/sourcetree.rb
+==> Contents
+  SourceTree.app (app)
+  SourceTree.app/Contents/Resources/stree (binary)
+==> Caveats
+Cask sourcetree installs files under "/usr/local".  The presence of such
+files can cause warnings when running "brew doctor", which is considered
+to be a bug in homebrew-cask.
+

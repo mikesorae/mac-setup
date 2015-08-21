@@ -1,0 +1,7 @@
+firefox: 40.0
+Firefox, Mozilla Firefox
+https://www.mozilla.org/en-US/firefox/
+/opt/homebrew-cask/Caskroom/firefox/40.0 (107 files, 172M)
+https://github.com/caskroom/homebrew-cask/blob/master/Casks/firefox.rb
+==> Contents
+  Firefox.app (app)

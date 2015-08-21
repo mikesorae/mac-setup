@@ -1,0 +1,9 @@
+atom: 1.0.7
+Atom
+https://atom.io/
+/opt/homebrew-cask/Caskroom/atom/1.0.7 (1575 files, 199M)
+https://github.com/caskroom/homebrew-cask/blob/master/Casks/atom.rb
+==> Contents
+  Atom.app (app)
+  Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm (binary)
+  Atom.app/Contents/Resources/app/atom.sh (binary)
