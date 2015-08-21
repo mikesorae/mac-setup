@@ -13,6 +13,8 @@
       - { name: openssl }
       - { name: openssl, state: linked, install_options: force }
     homebrew_cask_packages:
+      - { name: alfred }
+      - { name: night-owl }
       - { name: firefox }
       - { name: google-chrome }
       - { name: adobe-reader }
