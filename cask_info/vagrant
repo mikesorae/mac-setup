@@ -1,7 +1,0 @@
-vagrant: 1.7.4
-Vagrant
-https://www.vagrantup.com/
-/opt/homebrew-cask/Caskroom/vagrant/1.7.4 (6 files, 82M)
-https://github.com/caskroom/homebrew-cask/blob/master/Casks/vagrant.rb
-==> Contents
-  Vagrant.pkg (pkg)

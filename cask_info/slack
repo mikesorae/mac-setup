@@ -1,7 +1,0 @@
-slack: 1.1.3
-Slack
-https://slack.com/
-/opt/homebrew-cask/Caskroom/slack/1.1.3 (217 files, 25M)
-https://github.com/caskroom/homebrew-cask/blob/master/Casks/slack.rb
-==> Contents
-  Slack.app (app)
