@@ -19,6 +19,7 @@
       - { name: firefox }
       - { name: google-chrome }
       - { name: adobe-reader }
+      - { name: macvim }
       - { name: java }
       - { name: skype }
       - { name: slack }
