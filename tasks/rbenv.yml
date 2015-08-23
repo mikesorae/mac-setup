@@ -1,0 +1,11 @@
+# rbenv
+- name: install rbenv
+  shell: grep 'eval "$(rbenv init -)"' ~/.zshrc || echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+  ignore_errors: True
+- name: install ruby2.2
+  shell: rbenv install 2.2.0
+  ignore_errors: True
+- name: set ruby2.2 as default
+  shell: rbenv global 2.2.0
+- name: refreash ruby version
+  shell: rbenv rehash
