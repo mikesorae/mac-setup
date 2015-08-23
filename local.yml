@@ -93,7 +93,8 @@
 
     # rbenv
     - name: install rbenv
-      shell: eval "$(rbenv init -)"
+      shell: grep 'eval "$(rbenv init -)"' ~/.zshrc || echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+      ignore_errors: True
     - name: install ruby2.2
       shell: rbenv install 2.2.0
       ignore_errors: True
