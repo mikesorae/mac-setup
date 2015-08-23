@@ -1,0 +1,3 @@
+- name: install gems
+  gem: name={{ item.name }}
+  with_items: rubygems

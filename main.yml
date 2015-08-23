@@ -34,6 +34,10 @@
       - { name: kobito }
       - { name: vagrant }
       - { name: virtualbox }
+    rubygems:
+      - { name: pry }
+      - { name: synx }
+      - { name: cocoapods }
 
   tasks:
     # Homebrew
@@ -53,6 +57,9 @@
 
     # vim
     - include: tasks/vim.yml
+
+    # ruby gems
+    - include: tasks/rubygems.yml
 
   handlers:
     - name: run fc-cache
