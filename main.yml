@@ -15,7 +15,7 @@
       - { name: rbenv }
       - { name: ruby-build }
       - { name: trash }
-      - { name: vim }
+      - { name: vim, install_options: with-lua }
     homebrew_cask_packages:
       - { name: google-japanese-ime }
       - { name: alfred }
