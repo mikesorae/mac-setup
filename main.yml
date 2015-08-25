@@ -16,6 +16,7 @@
       - { name: ruby-build }
       - { name: trash }
       - { name: vim, install_options: with-lua }
+      - { name: tmux }
     homebrew_cask_packages:
       - { name: google-japanese-ime }
       - { name: alfred }
@@ -38,6 +39,7 @@
       - { name: pry }
       - { name: synx }
       - { name: cocoapods }
+      - { name: tmuxinator }
 
   tasks:
     # Homebrew
