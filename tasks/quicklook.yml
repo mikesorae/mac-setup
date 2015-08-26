@@ -1,0 +1,7 @@
+- name: download qlstephen
+  command: curl -L -o ~/Downloads/QLStephen.qlgenerator.zip https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip
+- name: create quicklook plugin directory
+  file: path=~/Library/QuickLook state=directory mode=0755
+- name: unarchive zip
+  unarchive: src=~/Downloads/QLStephen.qlgenerator.zip dest=~/Library/QuickLook/
+

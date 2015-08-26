@@ -66,6 +66,9 @@
     # ruby gems
     - include: tasks/rubygems.yml
 
+    # QuickLook
+    - include: tasks/quicklook.yml
+
   handlers:
     - name: run fc-cache
       shell: fc-cache -vf
