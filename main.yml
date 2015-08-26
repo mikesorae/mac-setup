@@ -14,6 +14,7 @@
       - { name: openssl, state: linked, install_options: force }
       - { name: cscope }
       - { name: lua }
+      - { name: wget }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: trash }
