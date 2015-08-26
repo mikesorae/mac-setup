@@ -12,11 +12,14 @@
       - { name: readline }
       - { name: openssl }
       - { name: openssl, state: linked, install_options: force }
+      - { name: cscope }
+      - { name: lua }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: trash }
-      - { name: vim, install_options: with-lua }
       - { name: tmux }
+      - { name: vim, install_options: with-lua }
+      - { name: macvim, install_options: with-lua,with-cscope }
     homebrew_cask_packages:
       - { name: google-japanese-ime }
       - { name: alfred }
@@ -24,7 +27,6 @@
       - { name: firefox }
       - { name: google-chrome }
       - { name: adobe-reader }
-      - { name: macvim }
       - { name: java }
       - { name: skype }
       - { name: slack }
