@@ -23,6 +23,7 @@
       - { name: macvim, install_options: with-lua,with-cscope }
     homebrew_cask_packages:
       - { name: google-japanese-ime }
+      - { name: xtrafinder }
       - { name: alfred }
       - { name: night-owl }
       - { name: firefox }
