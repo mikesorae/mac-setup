@@ -15,6 +15,7 @@
       - { name: cscope }
       - { name: lua }
       - { name: wget }
+      - { name: nmap }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: trash }
