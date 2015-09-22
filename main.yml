@@ -16,6 +16,7 @@
       - { name: lua }
       - { name: wget }
       - { name: nmap }
+      - { name: nodebrew }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: trash }
@@ -61,6 +62,9 @@
 
     # rbenv
     - include: tasks/rbenv.yml
+
+    # nodebrew
+    - include: tasks/nodebrew.yml
 
     # vim
     - include: tasks/vim.yml
